@@ -1,12 +1,13 @@
 import { createGlobalStyle } from "styled-components";
-
+// old green #23ce6b
 export const GlobalStyle = createGlobalStyle`
 
   :root{
     --pink: #E31F71;
     --black: #212121;
-    --green: #23ce6b;
+    --green: #6f8767;
     --blue: #016fb9;
+    --almond: #eaddca;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -79,7 +80,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: var(--almond);
     color: #FFFF;
   }
 
@@ -113,7 +114,7 @@ export const GlobalStyle = createGlobalStyle`
 
   .logo{
     font-size: 3rem;
-    color: #FFFF;
+    color: #212121;
     // &::first-letter{
     //   color: var(--green);
     // }

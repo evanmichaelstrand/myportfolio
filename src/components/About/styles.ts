@@ -27,7 +27,7 @@ export const Container = styled.section`
     display: inline-block;
     margin-bottom: 2rem;
     // border-bottom: 0.2rem solid var(--blue);
-    font-size :3rem;
+    font-size :4rem;
     margin-top: 0rem;
     color: var(--green);
   }
@@ -41,6 +41,7 @@ export const Container = styled.section`
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
+    color: var(--black);
   }
   
   

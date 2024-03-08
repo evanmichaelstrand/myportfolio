@@ -23,7 +23,17 @@ export function Main() {
   return (
 
     <Container>
-      <Particles
+      <Hero></Hero>
+      <About></About>
+      <Project></Project>
+      <Contact></Contact>
+    </Container>
+  );
+}
+
+/*
+/this goes first in the container if you want to use it
+<Particles
         id="tsparticles"
         options={{
           "fullScreen": {
@@ -259,10 +269,6 @@ export function Main() {
           }
         }}
       />
-      <Hero></Hero>
-      <About></About>
-      <Project></Project>
-      <Contact></Contact>
-    </Container>
-  );
-}
+
+
+      */

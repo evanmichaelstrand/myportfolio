@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-
+//old background-color: #21212150
+//old nav color: #FFFF
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
   
-  background-color: #21212150;
+  background-color: #eaddca;
   
   backdrop-filter: blur(6px);
 
@@ -22,7 +23,7 @@ export const Container = styled.header`
     align-items: center;
     gap: 1.8rem;
     a{
-      color: #FFFF;
+      color: #212121;
       padding: 0.6rem;
       font-family: 'Red Hat Display', sans-serif;
       font-weight: 500;
@@ -48,7 +49,7 @@ export const Container = styled.header`
   .menu{
     width: 2rem;
     height: 0.2rem;
-    background: #FFFF;
+    background: #212121;
     position: relative;
     cursor: pointer;
     display: none;

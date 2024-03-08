@@ -20,8 +20,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Vinayak "}</span>
-          <span>{" Singh/>"}</span>
+          <span>{"Evan "}</span>
+          <span>{"Strand"}</span>
         </HashLink>
 
         <input
@@ -50,7 +50,6 @@ export function Header() {
             CV
           </a>
         </nav>
-
         <div
           aria-expanded={isActive ? 'true' : 'false'}
           aria-haspopup="true"
