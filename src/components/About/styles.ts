@@ -37,13 +37,20 @@ export const Container = styled.section`
     color: var(--green);
   }
 
+  a{
+    display:inline-block;
+    padding-top: 2rem;
+    //padding doesn't work for anchor links, so you need to add "display:inline-block"
+    font-size: 2rem;
+    color: var(--dtblue);
+  }
+
   p{
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
     color: var(--black);
   }
-  
   
 
   .about-image{

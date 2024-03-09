@@ -20,7 +20,7 @@ export const Container = styled.section`
 
     h3{
       color:var(--green);
-      font-size: 2rem;
+      font-size: 2.5rem;
       padding-left:1rem;
       margin: 2rem 0;
     }

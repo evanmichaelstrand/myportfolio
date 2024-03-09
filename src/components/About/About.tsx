@@ -18,12 +18,16 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>Evan Strand</h2>
+          <h2>Occupation</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hello! I'm Evan, a Product Specialist for Dynatrace. With my technical background and passion for creating solutions, my goal is to provide strategic consulting to my clients.
+          Hello, I'm Evan! As a Product Specialist for Dynatrace, my goal is to provide strategic consulting to my clients. 
+          {/*With my technical background and passion for creating solutions, my goal is to provide strategic consulting to my clients.*/}
           </p>
+          <a  href="https://www.dynatrace.com/">
+            Learn more about Dynatrace
+          </a>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
@@ -93,11 +97,11 @@ export function About() {
           </div>
         </div>
       </div>
-      <div className="about-image">
+      {/*<div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
           <img src={VinayakSingh} alt="Vinayak Singh" />
         </ScrollAnimation>
-      </div>
+  </div>*/}
     </Container>
   )
 }

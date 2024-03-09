@@ -24,15 +24,6 @@ export function Header() {
           <span>{"Strand"}</span>
         </HashLink>
 
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
-        <label htmlFor="switch">Toggle</label>
-
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
@@ -63,3 +54,14 @@ export function Header() {
     </Container>
   )
 }
+
+/*
+<input
+          onChange={toggleTheme}
+          className="container_toggle"
+          type="checkbox"
+          id="switch"
+          name="mode"
+        />
+        <label htmlFor="switch">Toggle</label>
+        */
