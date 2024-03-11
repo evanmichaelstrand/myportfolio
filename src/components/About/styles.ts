@@ -25,8 +25,7 @@ export const Container = styled.section`
 
   h2{
     display: inline-block;
-    margin-bottom: 2rem;
-    // border-bottom: 0.2rem solid var(--blue);
+    margin-bottom: 0rem;
     font-size :4rem;
     margin-top: 0rem;
     color: var(--green);
@@ -46,18 +45,39 @@ export const Container = styled.section`
   }
 
   p{
+    margin-top: 1rem;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
     color: var(--black);
   }
   
+  .about-logo{
+    text-align: center;
+    white-space:nowrap;
+    display: inline;
+   img{
+     display: inline;
+     margin-top: 2rem;
+     margin-left: 1rem;
+     width: 7%;
+     filter: grayscale(0);
+     transition: filter 0.5s;
+     &:hover{
+       filter: grayscale(0);
+     }
+   }
+  }
 
   .about-image{
     text-align: center;
+    white-space:nowrap;
+    display: inline;
    img{
+     display: inline;
      margin-top: 2rem;
-     width: 75%;
+     margin-left: 1rem;
+     width: 100%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{

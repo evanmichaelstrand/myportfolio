@@ -28,15 +28,15 @@ export function Hero() {
         </div>
       </ScrollAnimation>
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeIn" delay={0.2 * 1000} duration={2}>
           <h1>Evan Strand</h1>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <h3>Software Product Specialist</h3>
         </ScrollAnimation>
         
         
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={1.5 * 1000}>
         <div className="social-media"><a
           href="https://www.linkedin.com/in/evan-strand-a33331195/"
           target="_blank"
