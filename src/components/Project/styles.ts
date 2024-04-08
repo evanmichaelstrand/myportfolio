@@ -19,7 +19,8 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+      //background-color: #2b2b2b;
+      background-color: var(--brown);
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -28,7 +29,7 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        //background-color: var(--pink);
       }
 
       header{

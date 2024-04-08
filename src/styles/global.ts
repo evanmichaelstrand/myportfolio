@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --blue: #016fb9;
     --dtblue: #1496FF;
     --almond: #eaddca;
+    --brown: #786a55;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -55,7 +56,6 @@ export const GlobalStyle = createGlobalStyle`
           }
         }
       }
-
     }
   }
 

@@ -5,6 +5,7 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  //border-bottom: 1px solid var(--blue);
 
   .hard-skills{
     margin-top: 1.6rem;
@@ -25,7 +26,7 @@ export const Container = styled.section`
 
   h2{
     display: inline-block;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     font-size :4rem;
     margin-top: 0rem;
     color: var(--green);
@@ -75,8 +76,9 @@ export const Container = styled.section`
     display: inline;
    img{
      display: inline;
-     margin-top: 2rem;
-     margin-left: 1rem;
+     margin-top: 4rem;
+     margin-left: 0rem;
+     margin-right: 5rem;
      width: 100%;
      filter: grayscale(0);
      transition: filter 0.5s;
