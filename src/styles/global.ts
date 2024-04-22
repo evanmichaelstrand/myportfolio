@@ -3,13 +3,15 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
   :root{
+    --white: #fcfcfc;
+    --gray: #c9c9c9;
     --pink: #E31F71;
     --black: #212121;
     --green: #6f8767;
     --blue: #016fb9;
     --dtblue: #1496FF;
     --almond: #eaddca;
-    --brown: #786a55;
+    --brown: #ab9779;
     scroll-padding-top: 10rem;
 
     &.light{

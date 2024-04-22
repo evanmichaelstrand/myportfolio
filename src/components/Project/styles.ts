@@ -4,6 +4,16 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 15rem;
   
+  .hability{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 3.4rem;
+    }
+  }
+
   h2{
     text-align: center;
     font-size: 4rem;
@@ -30,7 +40,11 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        //background-color: var(--pink);
+        background-color: var(--gray);
+      }
+
+      img{
+        max-width: 100%;
       }
 
       header{
@@ -50,18 +64,20 @@ export const Container = styled.section`
       }
       
       h3{
-        margin-bottom: 2rem;
+        color: var(--black);
+        margin-bottom: 3rem;
       }
 
       p{
+        color: var(--black);
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
         a{
-          color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          color: var(--dtblue);
+          //border-bottom: 1px solid var(--dtblue);
           transition: color 0.25s;
           &:hover{
-            color: var(--green);
+            //color: #9ed3ff;
           }
         }
       }
@@ -73,7 +89,8 @@ export const Container = styled.section`
           align-items: center;
           gap: 2rem;
           font-size: 1.4rem;
-          opacity: 0.6;
+          //background-color: var(--brown);
+          //opacity: 0.6;
         }
       }
 
