@@ -18,9 +18,16 @@ export const Container = styled.section`
       font-size: 12rem;
     }
 
-    h3{
+    h2{
       color:var(--green);
       font-size: 2.5rem;
+      padding-left:1rem;
+      margin: 2rem 0;
+    }
+
+    h3{
+      color:var(--dtblue);
+      font-size: 2rem;
       padding-left:1rem;
       margin: 2rem 0;
     }
@@ -36,7 +43,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top:2rem;
+    padding-top:0rem;
     padding-left:1rem;
 
     img,span{

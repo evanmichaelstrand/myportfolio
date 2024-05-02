@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
-  background-color: #2b2b2b;
-  padding: 3rem 15rem;
+  background-color: var(--brown);
+  padding: 2rem 0;
   margin-top: 10rem;
   display: flex;
   align-items: center;
@@ -25,10 +25,11 @@ export const Container = styled.footer`
     }
   }
   .social-media{
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    //justify-content: space-between;
+    gap: 2rem;
 
     img,span{
       font-size: 3rem;

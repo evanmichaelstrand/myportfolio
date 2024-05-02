@@ -15,6 +15,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function About() {
   return (
     <div>
+      <div className="pad"></div>
       <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
@@ -53,7 +54,6 @@ export function About() {
         </ScrollAnimation>
       </div>
     </Container>
-
 
     <Container id="about">
       <div className="about-image">

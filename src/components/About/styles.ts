@@ -52,6 +52,9 @@ export const Container = styled.section`
     font-weight: 500;
     color: var(--black);
   }
+  .pad{
+    margin-top: 6rem;
+  }
   
   .about-logo{
     text-align: center;

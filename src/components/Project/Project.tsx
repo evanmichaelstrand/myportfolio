@@ -225,7 +225,7 @@ export function Project() {
               <div className="body">
                 <h3>Microsoft Azure Fundamentals</h3>
                 <p>
-                May 2024
+                April 2024
                 </p>
               </div>
               <footer>

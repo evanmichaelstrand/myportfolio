@@ -3,6 +3,7 @@ import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
+import emailIcon from "../../assets/email-icon.svg";
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
@@ -10,7 +11,27 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <div>
+      <div className="social-media">
+
+        <a
+            href="https://www.linkedin.com/in/evan-strand-a33331195/"
+            target="_blank"
+            rel="noreferrer"
+            >
+              <img src={linkedin} alt="Linkedin" />
+            </a>
+            <a
+              href="https://github.com/evanmichaelstrand"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+
+            <a href="mailto:evanmstrand@gmail.com"
+            target="_blank">
+              <img src={emailIcon} alt="Email" />
+          </a>
         {/*
       <a href="https://vinayaksingh.in" className="logo">
         <span>www.vinayak</span>
