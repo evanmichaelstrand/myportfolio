@@ -7,13 +7,13 @@ import jsIcon from "../../assets/js-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import pythonIcon from "../../assets/pythonIcon.svg";
 import flaskIcon from "../../assets/flask.svg";
-import flask from "../../assets/flask.svg";
-import hurdlewordle from "../../assets/hurdlewordle.png";
+//import flask from "../../assets/flask.svg";
+//import hurdlewordle from "../../assets/hurdlewordle.png";
 import Dynatrace_Logo from "../../assets/Dynatrace_Logo.svg"
 import azureIcon from "../../assets/azureIcon.svg";
 import k8sIcon from "../../assets/k8sIcon.svg";
 import externalLink from "../../assets/external-link.svg";
-import externalLinkDT from "../../assets/externallink-blue_400.svg";
+//import externalLinkDT from "../../assets/externallink-blue_400.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -50,7 +50,7 @@ export function Project() {
                   </div>
                   <footer>
                     <p>
-                      <a href="https://youtu.be/Ieh2UFjsSOw" target="_blank">See how it works</a>
+                      <a href="https://youtu.be/Ieh2UFjsSOw" target="_blank" rel = "noreferrer">See how it works</a>
                     </p>
                     <ul className="tech-list">
                       <div className="hability">

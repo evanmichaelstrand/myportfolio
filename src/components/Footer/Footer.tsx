@@ -1,11 +1,8 @@
 import { Container } from './styles'
 
-import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import emailIcon from "../../assets/email-icon.svg";
-import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
@@ -29,7 +26,8 @@ export function Footer() {
             </a>
 
             <a href="mailto:evanmstrand@gmail.com"
-            target="_blank">
+            target="_blank"
+            rel = "noreferrer">
               <img src={emailIcon} alt="Email" />
           </a>
         {/*

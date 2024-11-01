@@ -1,11 +1,4 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import Dynatrace_Logo from "../../assets/Dynatrace_Logo.svg"
 import cu_logo from "../../assets/cu_logo.png";
 import about_dt from "../../assets/about_dt.png";
@@ -42,7 +35,7 @@ export function About() {
             As a Product Specialist, my goal is to provide strategic consulting to my clients.
             I deliver coaching sessions, recommendations, and technical troubleshooting.
           </p>
-          <a  href="https://www.dynatrace.com/" target="_blank">
+          <a  href="https://www.dynatrace.com/" target="_blank" rel="noreferrer">
             Learn more about Dynatrace
           </a>
         </ScrollAnimation>

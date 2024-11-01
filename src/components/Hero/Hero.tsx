@@ -1,15 +1,13 @@
-import { BrowserRouter } from "react-router-dom"
+
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
+
 import hero from "../../assets/hero.png"
-import { NavHashLink } from "react-router-hash-link"
+
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import emailIcon from "../../assets/email-icon.svg";
-import whatsapp from '../../assets/whatsapp.svg'
-import Hello from '../../assets/Hello.gif'
-import telegram from '../../assets/telegram.svg'
+
 //import { spanStyle, divStyle, slideImages, Slideshow } from '../Slide/slide'
 
 /*
@@ -58,7 +56,8 @@ export function Hero() {
           </a>
 
           <a href="mailto:evanmstrand@gmail.com"
-          target="_blank">
+          target="_blank"
+          rel = "noreferrer">
             <img src={emailIcon} alt="Email" />
           </a>
 
