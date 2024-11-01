@@ -7,10 +7,11 @@ import resume from '../../assets/Resume2024.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
 
-  function toggleTheme() {
+  /*function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
     html.classList.toggle('light')
   }
+    */
 
   function closeMenu() {
     setActive(false)
