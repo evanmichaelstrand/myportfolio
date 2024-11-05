@@ -79,6 +79,7 @@ export const Container = styled.section`
     display: inline;
    img{
      display: inline;
+     border-radius: 7%;
      margin-top: 4rem;
      margin-left: 0rem;
      margin-right: 5rem;
