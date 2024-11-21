@@ -127,7 +127,7 @@ export function Project() {
                   <div className="body">
                     <h3>Personal Website</h3>
                     <p>
-                    This website! Deployed with Azure App Service and monitored with Dynatrace.
+                    This website! Deployed with Azure App Service and monitored with Dynatrace..
                     </p>
                   </div>
                   <footer>
