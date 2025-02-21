@@ -72,8 +72,8 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            Most importantly, University helped me develope my problem solving skills and instil confidence in my 
-            ability to lean.
+            Most importantly, University helped me develop my problem solving skills and instill confidence in my 
+            ability to learn.
           </p>
         </ScrollAnimation>
       </div>
